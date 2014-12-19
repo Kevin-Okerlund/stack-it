@@ -1,14 +1,16 @@
 @charset "UTF-8";
 body {
 	background-color: #222;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	color: #fff;
+	font-size: 10px;
 }
 table {
 	margin-left: auto;
 	margin-right: auto;
 }
 table tr td {
-	border: #fff 2px solid;
+	border: #444 2px solid;
 	box-sizing: border-box;
 }
 .activeCell {
@@ -16,4 +18,7 @@ table tr td {
 }
 .inactiveCell {
 	background-color: none;
+}
+.invalidCell {
+	background-color: #4E5462;
 }
