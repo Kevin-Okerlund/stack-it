@@ -14,3 +14,6 @@ table tr td {
 .activeCell {
 	background-color: #18CAE6;
 }
+.inactiveCell {
+	background-color: none;
+}
